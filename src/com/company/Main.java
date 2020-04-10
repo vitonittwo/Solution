@@ -9,30 +9,19 @@ public class Main {
         System.out.println("Hello, Java.");
 
             Scanner scan = new Scanner(System.in);
-            // String myString = scan.next();
-            // int myInt = scanner.nextInt();
-           // scanner.close();
 
-            // System.out.println("myString is: " + myString);
-            // System.out.println("myInt is: " + myInt);
-
-       int a,b,c;
       System.out.print("Input a = ");
-         a = scan.nextInt();
-      // System.out.println(a);
+        int a = scan.nextInt();
+
       System.out.print("Input b = ");
-         b = scan.nextInt();
-       // System.out.println(b);
+        int b = scan.nextInt();
 
        System.out.print("Input c = ");
-         c = scan.nextInt();
-       // System.out.println(c);
+        int c = scan.nextInt();
 
            System.out.println(a);
            System.out.println(b);
            System.out.println(c);
-
-
 
     }
 }
